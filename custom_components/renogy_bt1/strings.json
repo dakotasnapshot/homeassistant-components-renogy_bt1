@@ -1,0 +1,22 @@
+{
+  "config": {
+    "flow_title": "Renogy BT-1 Configuration",
+    "step": {
+      "user": {
+        "description": "Configure your Renogy BT-1 device.",
+        "data": {
+          "name": "Device Name"
+        }
+      },
+      "bluetooth_confirm": {
+        "description": "Confirm Renogy BT-1 device discovery."
+      }
+    },
+    "abort": {
+      "not_supported": "Device not supported",
+      "no_devices_found": "No Renogy BT-1 devices found.",
+      "already_in_progress": "Configuration is already in progress",
+      "already_configured": "Renogy BT-1 device is already configured"
+    }
+  }
+}
