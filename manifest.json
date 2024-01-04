@@ -1,0 +1,11 @@
+{
+  "domain": "renogy_bt1",
+  "name": "Renogy BT-1",
+  "codeowners": ["@your_github_username"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://www.home-assistant.io/integrations/renogy_bt1",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "requirements": ["renogy_bt1==0.1.0"]
+}
