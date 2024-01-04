@@ -15,7 +15,7 @@ SENSOR_DESCRIPTIONS = {
     "total_energy": {"device_class": None, "unit_of_measurement": "kWh"},
     "battery_charging_power": {"device_class": None, "unit_of_measurement": "W"},
     "battery_charging_voltage": {"device_class": DEVICE_CLASS_VOLTAGE, "unit_of_measurement": VOLT},
-    # Add other sensor descriptions based on your Renogy BT-1 data
+    
 }
 
 async def async_setup_platform(hass, config, async_add_entities: AddEntitiesCallback, discovery_info=None):
